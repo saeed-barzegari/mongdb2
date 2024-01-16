@@ -1,0 +1,70 @@
+/* public/styles/style.scss */
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.content {
+  background: #39ff6a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.content h1 {
+  color: blue;
+  margin-bottom: 20px;
+}
+.content label {
+  display: block;
+  margin-bottom: 10px;
+}
+.content input {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #f0f0f0;
+}
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+table th {
+  background-color: blue;
+  color: white;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

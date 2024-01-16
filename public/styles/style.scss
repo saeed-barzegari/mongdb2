@@ -1,0 +1,81 @@
+/* public/styles/style.scss */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+$primary-color: blue;
+$background-color: #39ff6a;
+$table-background: #f0f0f0;
+$even-row-background: #ffffff;
+
+.content {
+  background: $background-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  h1 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+}
+
+
+h1 {
+    color: $primary-color;
+    text-align: center;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: $table-background;
+  
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+  
+    th {
+      background-color: $primary-color;
+      color: white;
+    }
+  
+    tr:nth-child(even) {
+      background-color: $even-row-background;
+    }
+  }
